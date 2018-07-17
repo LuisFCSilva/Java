@@ -13,7 +13,9 @@ public class ApplicationFor {
 		System.out.print("Tabuada do número ");
 		int tabuada = scan.nextInt();	
 		
-		for(int i = 1; i <= 10; i++) {
+		int i;
+		
+		for(i = 1; i <= 10; i++) {
 			
 			var result = tabuada * i;
 			System.out.println(tabuada + " X " + i + " = " + result);
